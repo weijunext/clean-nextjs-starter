@@ -29,6 +29,13 @@ const baseSiteConfig = {
     juejin: "https://juejin.cn/user/26044008768029",
     weChat: "https://weijunext.com/make-a-friend",
   },
+  footerProduct: [
+    { url: 'https://weijunext.com/', name: 'J实验室' },
+    { url: 'https://githubbio.com', name: 'Github Bio Generator' },
+    { url: 'https://smartexcel.cc/', name: 'Smart Excel' },
+    { url: 'https://starter.weijunext.com/', name: 'Next.js Starter' },
+    { url: 'https://nextjs.weijunext.com/', name: 'Next.js Practice' },
+  ]
 }
 
 export const siteConfig: SiteConfig = {

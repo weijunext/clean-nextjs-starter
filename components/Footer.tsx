@@ -12,18 +12,23 @@ const Footer = () => {
         <div className="mb-3 flex space-x-4">
           <ContactMe />
         </div>
-        <div className="mb-2 flex space-x-2">
-          <Link href="https://weijunext.com/" target="_blank">
-            J实验室
-          </Link>
-          <div>{" • "}</div>
-          <Link href="https://smartexcel.cc/" target="_blank">
-            Smart Excel
-          </Link>
-          <div>{" • "}</div>
-          <Link href="https://nextjs.weijunext.com/" target="_blank">
-            Next.js Practice
-          </Link>
+        <div className="mb-2 flex space-x-2 flex-wrap justify-center">
+          {siteConfig.footerProduct.map((product, index) => {
+            return (
+              <>
+                <Link key={product.url} href={product.url} target="_blank">
+                  {product.name}
+                </Link>
+                {index !== siteConfig.footerProduct.length - 1 ? (
+                  <>
+                    <div>{" • "}</div>
+                  </>
+                ) : (
+                  <></>
+                )}
+              </>
+            );
+          })}
         </div>
         <div className="mb-2 flex space-x-2">
           <div>{`©${currentYear}`}</div>{" "}
