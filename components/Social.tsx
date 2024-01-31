@@ -5,13 +5,13 @@ import { BsGithub, BsTwitterX } from "react-icons/bs";
 import { SiBuymeacoffee } from "react-icons/si";
 
 const Social = () => {
-  const { email, twitter, github, buyMeCoffee, juejin, weChat } =
+  const { email, twitter, repo, buyMeCoffee, juejin, weChat } =
     siteConfig.links;
   return (
     <div className="mx-auto flex flex-row items-center">
-      {github ? (
+      {repo ? (
         <Link
-          href={github}
+          href={repo}
           target="_blank"
           rel="noopener norefferer nofollow"
           className="mx-3 flex max-w-[24px] flex-col items-center justify-center"
