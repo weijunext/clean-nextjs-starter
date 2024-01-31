@@ -18,6 +18,7 @@ export type SiteConfig = {
     email?: string
     twitter?: string
     github?: string
+    repo?: string
     buyMeCoffee?: string
     juejin?: string
     weChat?: string

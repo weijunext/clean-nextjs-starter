@@ -24,7 +24,8 @@ const baseSiteConfig = {
   links: {
     email: "mailto:weijunext@gmail.com",
     twitter: "https://twitter.com/weijunext",
-    github: "https://github.com/weijunext/clean-nextjs-starter",
+    github: "https://github.com/weijunext/",
+    repo: "https://github.com/weijunext/clean-nextjs-starter",
     buyMeCoffee: "https://www.buymeacoffee.com/weijunext",
     juejin: "https://juejin.cn/user/26044008768029",
     weChat: "https://weijunext.com/make-a-friend",
