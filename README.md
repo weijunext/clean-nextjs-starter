@@ -5,6 +5,8 @@
 
 Clean Next.js Starter is a meticulously designed Next.js starter template aimed at providing developers with a clean, efficient, and scalable foundation for quickly launching.
 
+Demo address：https://starter.weijunext.com
+
 [![Clean Next.js Starter](./public/og.png)](https://www.starter.weijunext.com/)
 
 ## Tech Stack 
