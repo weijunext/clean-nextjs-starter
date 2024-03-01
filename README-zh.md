@@ -8,6 +8,8 @@ Clean Next.js Starter 是一个精心设计的 Next.js 启动模板，旨在为�
 
 [![Clean Next.js Starter](./public/og.png)](https://www.starter.weijunext.com/)
 
+**更多功能正在开发中，目标是在今年完成启动器的全面开发。**
+
 ## 技术栈
 
 Clean Next.js Starter 基于以下技术栈构建：
