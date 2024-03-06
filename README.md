@@ -35,7 +35,7 @@ npm run dev
 ## Build Your Project
 
 Edit these files:
-- `.env` or `.env.example`
+- `.env` or `.env.local`
 - `config/site.ts`, fill in your website information.
 - `components/Footer.tsx`, fill in your website footer.
 - `public`, change logo file
