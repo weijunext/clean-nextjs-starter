@@ -1,4 +1,7 @@
-import { SiteConfig } from "@/types/siteConfig"
+import { SiteConfig } from "@/types/siteConfig";
+import { BsGithub, BsTwitterX, BsWechat } from "react-icons/bs";
+import { MdEmail } from "react-icons/md";
+import { SiBuymeacoffee, SiJuejin } from "react-icons/si";
 
 const baseSiteConfig = {
   name: "Clean Next.js Starter",
@@ -21,15 +24,19 @@ const baseSiteConfig = {
     shortcut: "/favicon-16x16.png",
     apple: "/apple-touch-icon.png",
   },
-  links: {
-    email: "mailto:weijunext@gmail.com",
-    twitter: "https://twitter.com/weijunext",
-    github: "https://github.com/weijunext/",
-    repo: "https://github.com/weijunext/clean-nextjs-starter",
-    buyMeCoffee: "https://www.buymeacoffee.com/weijunext",
-    juejin: "https://juejin.cn/user/26044008768029",
-    weChat: "https://weijunext.com/make-a-friend",
-  },
+  headerLinks: [
+    { name: 'repo', href: "https://github.com/weijunext/clean-nextjs-starter", icon: BsGithub },
+    { name: 'twitter', href: "https://twitter.com/weijunext", icon: BsTwitterX },
+    { name: 'buyMeCoffee', href: "https://www.buymeacoffee.com/weijunext", icon: SiBuymeacoffee }
+  ],
+  footerLinks: [
+    { name: 'email', href: "mailto:weijunext@gmail.com", icon: MdEmail },
+    { name: 'twitter', href: "https://twitter.com/weijunext", icon: BsTwitterX },
+    { name: 'github', href: "https://github.com/weijunext/", icon: BsGithub },
+    { name: 'buyMeCoffee', href: "https://www.buymeacoffee.com/weijunext", icon: SiBuymeacoffee },
+    { name: 'juejin', href: "https://juejin.cn/user/26044008768029", icon: SiJuejin },
+    { name: 'weChat', href: "https://weijunext.com/make-a-friend", icon: BsWechat }
+  ],
   footerProduct: [
     { url: 'https://weijunext.com/', name: 'J实验室' },
     { url: 'https://githubbio.com', name: 'Github Bio Generator' },
