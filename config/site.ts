@@ -9,7 +9,7 @@ const baseSiteConfig = {
     "Clean Next.js Starter is a meticulously designed Next.js starter template aimed at providing developers with a clean, efficient, and scalable foundation for quickly launching.",
   url: "https://starter.weijunext.com",
   ogImage: "https://starter.weijunext.com/og.png",
-  metadataBase: new URL("/"),
+  metadataBase: '/',
   keywords: ["next.js starter", "next.js template", "awesome starter", "study next.js"],
   authors: [
     {
