@@ -6,7 +6,7 @@ const HeaderLinks = () => {
   const links = siteConfig.headerLinks;
 
   return (
-    <div className="mx-auto flex flex-row items-center">
+    <div className="flex flex-row items-center">
       {links.map((link) => (
         <Link
           key={link.name}
