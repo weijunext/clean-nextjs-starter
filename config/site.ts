@@ -57,6 +57,7 @@ export const siteConfig: SiteConfig = {
     title: baseSiteConfig.name,
     description: baseSiteConfig.description,
     siteName: baseSiteConfig.name,
+    images: [`${baseSiteConfig.url}/og.png`],
   },
   twitter: {
     card: "summary_large_image",
