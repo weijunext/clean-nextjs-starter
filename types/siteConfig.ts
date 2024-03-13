@@ -29,8 +29,8 @@ export type SiteConfig = {
   themeColor: string
   icons: {
     icon: string
-    shortcut: string
-    apple: string
+    shortcut?: string
+    apple?: string
   }
   openGraph: {
     type: string
@@ -39,12 +39,13 @@ export type SiteConfig = {
     title: string
     description: string
     siteName: string
+    images?: string[]
   },
   twitter: {
     card: string
     title: string
     description: string
-    images: string[]
+    images?: string[]
     creator: string
   },
 }
