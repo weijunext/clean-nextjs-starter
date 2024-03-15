@@ -1,8 +1,8 @@
-import HeaderLinks from "@/components/HeaderLinks";
+import HeaderLinks from "@/components/header/HeaderLinks";
 import { siteConfig } from "@/config/site";
 import Image from "next/image";
 import Link from "next/link";
-import { ThemeProvider, ThemedButton } from "./ThemedButton";
+import { ThemeProvider, ThemedButton } from "../ThemedButton";
 
 const Header = () => {
   return (
