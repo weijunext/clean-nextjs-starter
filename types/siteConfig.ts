@@ -14,6 +14,10 @@ export type Link = {
   href: string
   icon: IconType
 }
+export type ThemeColor = {
+  media: string
+  color: string
+}
 export type SiteConfig = {
   name: string
   description: string
@@ -26,7 +30,7 @@ export type SiteConfig = {
   footerLinks: Link[],
   footerProducts: ProductLink[]
   metadataBase: URL | string
-  themeColor: string
+  themeColors?: string | ThemeColor[]
   icons: {
     icon: string
     shortcut?: string
