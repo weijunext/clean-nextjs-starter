@@ -2,7 +2,7 @@ import HeaderLinks from "@/components/header/HeaderLinks";
 import { siteConfig } from "@/config/site";
 import Image from "next/image";
 import Link from "next/link";
-import { ThemeProvider, ThemedButton } from "../ThemedButton";
+import { ThemedButton } from "../ThemedButton";
 
 const Header = () => {
   return (
@@ -27,9 +27,7 @@ const Header = () => {
 
           <div className="flex items-center gap-x-5 md:gap-x-8">
             <HeaderLinks />
-            <ThemeProvider>
-              <ThemedButton />
-            </ThemeProvider>
+            <ThemedButton />
           </div>
         </nav>
       </div>
