@@ -26,8 +26,8 @@ const baseSiteConfig = {
   defaultNextTheme: 'system', // next-theme option: system | dark | light
   icons: {
     icon: "/favicon.ico",
-    shortcut: "/favicon-16x16.png",
-    apple: "/apple-touch-icon.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png", // apple-touch-icon.png
   },
   headerLinks: [
     { name: 'repo', href: "https://github.com/weijunext/clean-nextjs-starter", icon: BsGithub },
