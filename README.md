@@ -50,11 +50,15 @@ Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_mediu
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/weijunext/clean-nextjs-starter&project-name=&repository-name=clean-nextjs-starter&demo-title=CleanNextjsStarter&demo-description=Clean%20nextjs%20starter.&demo-url=https://starter.weijunext.com&demo-image=https://starter.weijunext.com/og.png)
 
 ## About Me
-I am a **Front-End Engineer**, **Full-Stack Practitioner**, and advocate of **AI adventism**.
+
+**Full-Stack Engineer, Open-Source Next.js Artist & AI Enthusiast.**
+
+**全栈工程师，Next.js 开源手艺人，AI降临派。**
 
 [My Blog](https://weijunext.com)  
 [Github](https://github.com/weijunext)  
-[Twitter / X](https://twitter.com/weijunext)  
+[Twitter/X](https://twitter.com/weijunext)  
+[Twitter/X - En](https://twitter.com/wayne_dev)  
 [Medium](https://medium.com/@weijunext)  
 [掘金](https://juejin.cn/user/26044008768029)  
 [知乎](https://www.zhihu.com/people/mo-mo-mo-89-12-11)  

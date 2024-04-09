@@ -49,11 +49,14 @@ npm run dev
 [![使用 Vercel 部署](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/weijunext/clean-nextjs-starter&project-name=&repository-name=clean-nextjs-starter&demo-title=CleanNextjsStarter&demo-description=Clean%20nextjs%20starter.&demo-url=https://starter.weijunext.com&demo-image=https://starter.weijunext.com/og.png)
 
 ## 关于我
-我是一名**前端工程师**、**全栈实践者**，**AI降临派**。
+
+**Full-Stack Engineer, Open-Source Next.js Artist & AI Enthusiast.**
+
+**全栈工程师，Next.js 开源手艺人，AI降临派。**
 
 [博客](https://weijunext.com)  
 [Github](https://github.com/weijunext)  
-[Twitter / X](https://twitter.com/weijunext)  
+[Twitter/X](https://twitter.com/weijunext)  
 [Medium](https://medium.com/@weijunext)  
 [掘金](https://juejin.cn/user/26044008768029)  
 [知乎](https://www.zhihu.com/people/mo-mo-mo-89-12-11)  
