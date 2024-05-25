@@ -1,7 +1,10 @@
-import { logger } from "@/lib/logger";
+import logger from "@/lib/logger";
 
 export default function Home() {
-  logger.info("Home Page called ");
+  logger.debug("Debug message");
+  logger.info("Info message");
+  logger.warn("Warning message");
+  logger.error("Error message");
   return (
     <>
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-16 pt-24 text-center">

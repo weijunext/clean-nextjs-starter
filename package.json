@@ -10,6 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/winston": "^2.4.4",
     "@vercel/analytics": "^1.1.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
@@ -22,7 +23,8 @@
     "react-icons": "^5.0.1",
     "tailwind-merge": "^2.2.1",
     "tailwindcss-animate": "^1.0.7",
-    "winston": "^3.13.0"
+    "winston": "^3.13.0",
+    "winston-daily-rotate-file": "^5.0.0"
   },
   "devDependencies": {
     "@types/node": "^20",
