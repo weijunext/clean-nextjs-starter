@@ -1,18 +1,8 @@
-import { IconType } from "react-icons"
 
 export type AuthorsConfig = {
   name: string
   url: string
   twitter?: string
-}
-export type ProductLink = {
-  url: string
-  name: string
-}
-export type Link = {
-  name: string
-  href: string
-  icon: IconType
 }
 export type ThemeColor = {
   media: string
@@ -25,7 +15,6 @@ export type SiteConfig = {
   keywords: string[]
   authors: AuthorsConfig[]
   creator: string
-  ogImage: string
   metadataBase: URL | string
   themeColors?: string | ThemeColor[]
   defaultNextTheme?: string
@@ -46,6 +35,7 @@ export type SiteConfig = {
   twitter: {
     card: string
     title: string
+    site: string
     description: string
     images?: string[]
     creator: string
