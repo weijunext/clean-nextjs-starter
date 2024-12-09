@@ -1,7 +1,4 @@
 import { SiteConfig } from "@/types/siteConfig";
-import { BsGithub, BsTwitterX, BsWechat } from "react-icons/bs";
-import { MdEmail } from "react-icons/md";
-import { SiBuymeacoffee, SiJuejin } from "react-icons/si";
 
 const baseSiteConfig = {
   name: "Clean Next.js Starter",
@@ -29,29 +26,6 @@ const baseSiteConfig = {
     shortcut: "/logo.png",
     apple: "/logo.png", // apple-touch-icon.png
   },
-  headerLinks: [
-    { name: 'repo', href: "https://github.com/weijunext/clean-nextjs-starter", icon: BsGithub },
-    { name: 'twitter', href: "https://twitter.com/weijunext", icon: BsTwitterX },
-    { name: 'buyMeCoffee', href: "https://www.buymeacoffee.com/weijunext", icon: SiBuymeacoffee }
-  ],
-  footerLinks: [
-    { name: 'email', href: "mailto:weijunext@gmail.com", icon: MdEmail },
-    { name: 'twitter', href: "https://twitter.com/weijunext", icon: BsTwitterX },
-    { name: 'github', href: "https://github.com/weijunext/", icon: BsGithub },
-    { name: 'buyMeCoffee', href: "https://www.buymeacoffee.com/weijunext", icon: SiBuymeacoffee },
-    { name: 'juejin', href: "https://juejin.cn/user/26044008768029", icon: SiJuejin },
-    { name: 'weChat', href: "https://weijunext.com/make-a-friend", icon: BsWechat }
-  ],
-  footerProducts: [
-    { url: 'https://phcopilot.ai/', name: 'Product Hunt Copilot' },
-    { url: 'https://smartexcel.cc/', name: 'Smart Excel' },
-    { url: 'https://landingpage.weijunext.com/', name: 'Landing Page Boilerplate' },
-    { url: 'https://nextjscn.org/', name: 'Next.js 中文文档' },
-    { url: 'https://nextjs.weijunext.com/', name: 'Next.js Practice' },
-    { url: 'https://starter.weijunext.com/', name: 'Next.js Starter' },
-    { url: 'https://github.com/weijunext/indie-hacker-tools', name: 'Indie Hacker Tools' },
-    { url: 'https://weijunext.com/', name: 'J实验室' },
-  ]
 }
 
 export const siteConfig: SiteConfig = {

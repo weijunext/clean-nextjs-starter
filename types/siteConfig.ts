@@ -26,9 +26,6 @@ export type SiteConfig = {
   authors: AuthorsConfig[]
   creator: string
   ogImage: string
-  headerLinks: Link[]
-  footerLinks: Link[],
-  footerProducts: ProductLink[]
   metadataBase: URL | string
   themeColors?: string | ThemeColor[]
   defaultNextTheme?: string

@@ -1,13 +1,26 @@
-import { siteConfig } from "@/config/site";
 import Link from "next/link";
 import React from "react";
+import { BsGithub, BsTwitterX } from "react-icons/bs";
+import { SiBuymeacoffee } from "react-icons/si";
+
+const headerLinks = [
+  {
+    name: "repo",
+    href: "https://github.com/weijunext/clean-nextjs-starter",
+    icon: BsGithub,
+  },
+  { name: "twitter", href: "https://twitter.com/weijunext", icon: BsTwitterX },
+  {
+    name: "buyMeCoffee",
+    href: "https://www.buymeacoffee.com/weijunext",
+    icon: SiBuymeacoffee,
+  },
+];
 
 const HeaderLinks = () => {
-  const links = siteConfig.headerLinks;
-
   return (
     <div className="flex flex-row items-center">
-      {links.map((link) => (
+      {headerLinks.map((link) => (
         <Link
           key={link.name}
           href={link.href}
