@@ -1,19 +1,19 @@
 🌍 *[English](README.md) ∙ [简体中文](README-zh.md)*
 
 
-# [Clean Next.js Starter](https://starter.weijunext.com/)
+# [Next.js 15 Starter](https://starter.weijunext.com/)
 
-Clean Next.js Starter is a meticulously designed Next.js starter template aimed at providing developers with a clean, efficient, and scalable foundation for quickly launching.
+Next.js 15 Starter is a meticulously designed Next.js starter template aimed at providing developers with a clean, efficient, and scalable foundation for quickly launching.
 
 Demo address：https://starter.weijunext.com
 
 **More features are in development, aiming to complete the full development of the starter this year.**
 
-[![Clean Next.js Starter](./public/og.png)](https://www.starter.weijunext.com/)
+[![Next.js 15 Starter](./public/og.png)](https://www.starter.weijunext.com/)
 
 ## Tech Stack 
 
-Clean Next.js Starter is built on the following stack:
+Next.js 15 Starter is built on the following stack:
 
 - Next.js – Frontend/Backend
 - TailwindCSS – Styles
@@ -68,7 +68,5 @@ If this project is helpful to you, star the repo and buy be a coffee, thank you.
 
 <a href="https://www.buymeacoffee.com/weijunext" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;" ></a>
 
-
-<a href="https://afdian.net/a/weijunext" target="_blank"><img src="./public/afd.png" alt="在爱发电支持我" style="height: 50px !important"></a>
 
 <img src="./public/zs.jpeg" alt="赞赏作者" style="height: 200px; width: 200px">

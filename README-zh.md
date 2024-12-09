@@ -1,18 +1,18 @@
 🌍 *[英文](README.md) ∙ [简体中文](README-zh.md)*
 
-# [Clean Next.js Starter](https://starter.weijunext.com/)
+# [Next.js 15 Starter](https://starter.weijunext.com/)
 
-Clean Next.js Starter 是一个精心设计的 Next.js 启动模板，旨在为开发者提供一个干净、高效、可扩展的基础，以便快速启动项目。
+Next.js 15 Starter 是一个精心设计的 Next.js 启动模板，旨在为开发者提供一个干净、高效、可扩展的基础，以便快速启动项目。
 
 演示地址：https://starter.weijunext.com
 
-[![Clean Next.js Starter](./public/og.png)](https://www.starter.weijunext.com/)
+[![Next.js 15 Starter](./public/og.png)](https://www.starter.weijunext.com/)
 
 **更多功能正在开发中，目标是在今年完成启动器的全面开发。**
 
 ## 技术栈
 
-Clean Next.js Starter 基于以下技术栈构建：
+Next.js 15 Starter 基于以下技术栈构建：
 
 - Next.js – 前端
 - TailwindCSS – 样式
@@ -58,15 +58,12 @@ npm run dev
 [Github](https://github.com/weijunext)  
 [Twitter/X](https://twitter.com/weijunext)  
 [Medium](https://medium.com/@weijunext)  
-[掘金](https://juejin.cn/user/26044008768029)  
+[掘金](https://juejin.cn/user/26044008768029)
 [知乎](https://www.zhihu.com/people/mo-mo-mo-89-12-11)  
 [微信交流群](https://weijunext.com/make-a-friend)  
 
 如果这个项目对您有帮助，请给仓库点个star，能赞助一下就更好了👇
 
 <a href="https://www.buymeacoffee.com/weijunextz" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="请我喝咖啡" style="height: 41px !important;width: 174px !important;" ></a>
-
-
-<a href="https://afdian.net/a/weijunext" target="_blank"><img src="./public/afd.png" alt="在爱发电支持我" style="height: 50px !important"></a>
 
 <img src="./public/zs.jpeg" alt="赞赏作者" style="height: 200px; width: 200px">
