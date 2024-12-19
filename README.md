@@ -64,7 +64,7 @@ Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_mediu
 [知乎](https://www.zhihu.com/people/mo-mo-mo-89-12-11)  
 [微信交流群](https://weijunext.com/make-a-friend)  
 
-If this project is helpful to you, star the repo and buy be a coffee, thank you.
+If this project is helpful to you, star the repo and buy me a coffee, thank you.
 
 <a href="https://www.buymeacoffee.com/weijunext" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;" ></a>
 
